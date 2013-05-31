@@ -1,8 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from gi.repository import Gtk, GdkPixbuf, Gdk
 import os, sys
 
 """Utilizamos el metodo para conectar el par sennal (evento) con funcion asociada (callback)
-con el diccionario de variables handlers, idetificador la sennal y valor la funcion"""
+con el diccionario de variables handlers, idetificador la señal y valor la funcion"""
 class GUI:
     def __init__(self):
 
