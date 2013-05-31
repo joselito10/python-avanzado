@@ -12,7 +12,7 @@ class GUI:
 					"onButtonPressed": self.onButtonPressed,
 					"onAboutDialog": self.onAboutDialog,
 					"onCloseAbout": self.onCloseAbout,
-					#"onButtonPressed": self.pintar,
+					"pintar": self.pintar,
 						}
         
 		self.builder.connect_signals(self.handlers)
@@ -32,8 +32,9 @@ class GUI:
 	
 	def destroy(self,window):
 		Gtk.main_quit()
-	#def pintar(self,button):
-		#print "hola mundo"
+        
+	def pintar(self,button):
+		print "hola mundo"
 	
 	def onButtonPressed(self,button):
 		#windows = self.builder.get_object("aboutdialog1")

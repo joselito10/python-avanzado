@@ -43,6 +43,7 @@
             <property name="can_focus">False</property>
             <child>
               <object class="GtkMenuItem" id="menuitem1">
+                <property name="use_action_appearance">False</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="label" translatable="yes">_Archivo</property>
@@ -54,6 +55,7 @@
                     <child>
                       <object class="GtkImageMenuItem" id="salir">
                         <property name="label">gtk-quit</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="tooltip_text" translatable="yes">Salir</property>
@@ -68,6 +70,7 @@
             </child>
             <child>
               <object class="GtkMenuItem" id="menuitem2">
+                <property name="use_action_appearance">False</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="label" translatable="yes">_Base de datos</property>
@@ -78,6 +81,7 @@
                     <property name="can_focus">False</property>
                     <child>
                       <object class="GtkMenuItem" id="menuitem3">
+                        <property name="use_action_appearance">False</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="label" translatable="yes">Añadir</property>
@@ -86,6 +90,7 @@
                     </child>
                     <child>
                       <object class="GtkMenuItem" id="menuitem5">
+                        <property name="use_action_appearance">False</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="label" translatable="yes">Obtener</property>
@@ -94,6 +99,7 @@
                     </child>
                     <child>
                       <object class="GtkMenuItem" id="menuitem6">
+                        <property name="use_action_appearance">False</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="label" translatable="yes">Actualizar</property>
@@ -102,6 +108,7 @@
                     </child>
                     <child>
                       <object class="GtkMenuItem" id="menuitem7">
+                        <property name="use_action_appearance">False</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="label" translatable="yes">Borrar</property>
@@ -114,6 +121,7 @@
             </child>
             <child>
               <object class="GtkMenuItem" id="menuitem4">
+                <property name="use_action_appearance">False</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="label" translatable="yes">Ay_uda</property>
@@ -125,6 +133,7 @@
                     <child>
                       <object class="GtkImageMenuItem" id="imagemenuitem10">
                         <property name="label">gtk-about</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="use_underline">True</property>
@@ -150,10 +159,12 @@
             <child>
               <object class="GtkButton" id="button1">
                 <property name="label" translatable="yes">Añadir</property>
+                <property name="use_action_appearance">False</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="receives_default">True</property>
-                <signal name="clicked" handler="onButtonPressed" swapped="no"/>
+                <property name="use_action_appearance">False</property>
+                <signal name="clicked" handler="pintar" swapped="no"/>
               </object>
               <packing>
                 <property name="left_attach">0</property>
