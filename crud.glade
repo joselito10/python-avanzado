@@ -265,10 +265,13 @@
             <child>
               <object class="GtkEntry" id="entry1">
                 <property name="visible">True</property>
-                <property name="can_focus">False</property>
+                <property name="can_focus">True</property>
+                <property name="has_focus">True</property>
+                <property name="is_focus">True</property>
                 <property name="valign">start</property>
                 <property name="max_length">2</property>
                 <property name="invisible_char">•</property>
+                <property name="activates_default">True</property>
               </object>
               <packing>
                 <property name="left_attach">0</property>
@@ -280,7 +283,7 @@
             <child>
               <object class="GtkEntry" id="entry2">
                 <property name="visible">True</property>
-                <property name="can_focus">False</property>
+                <property name="can_focus">True</property>
                 <property name="invisible_char">•</property>
               </object>
               <packing>
@@ -293,7 +296,7 @@
             <child>
               <object class="GtkEntry" id="entry3">
                 <property name="visible">True</property>
-                <property name="can_focus">False</property>
+                <property name="can_focus">True</property>
                 <property name="invisible_char">•</property>
               </object>
               <packing>
@@ -306,7 +309,7 @@
             <child>
               <object class="GtkEntry" id="entry4">
                 <property name="visible">True</property>
-                <property name="can_focus">False</property>
+                <property name="can_focus">True</property>
                 <property name="invisible_char">•</property>
               </object>
               <packing>
@@ -319,7 +322,7 @@
             <child>
               <object class="GtkEntry" id="entry5">
                 <property name="visible">True</property>
-                <property name="can_focus">False</property>
+                <property name="can_focus">True</property>
                 <property name="invisible_char">•</property>
               </object>
               <packing>
