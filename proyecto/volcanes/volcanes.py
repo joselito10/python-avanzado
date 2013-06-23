@@ -1,3 +1,15 @@
+##########################################
+# 
+# Copyright 2013 José Lorenzo Herrero Rico
+# 
+# Volcanes, aplicación para saber los cinco Volcanes mas altos de la tierra en la actualidad.
+# 
+# Es software libre y se distribuye bajo una licencia Affero (AFFERO GENERAL PUBLIC LICENSE: http://www.affero.org/oagpl.html).
+# 
+# This program is free software and it's licensed under the AFFERO GENERAL PUBLIC LICENSE (http://www.affero.org/oagpl.html).
+# 
+##########################################
+
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
