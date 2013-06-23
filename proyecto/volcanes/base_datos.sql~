@@ -1,0 +1,28 @@
+
+/* Script de creación de la base de datos para el proyecto
+del Curso de Programación Avanzada en Python (2ª Edición) Universidad de Granada
+José Lorenzo Herrero Rico*/
+
+-- Borra la base de datos si existe
+drop database if exists volcanesBD;
+
+-- Crea la base de datos
+create database volcanesBD;
+
+-- Usuario para la conexión
+grant all on volcanesBD.* to 'usuario'@'localhost' identified by 'volcan';
+
+-- Creación de la tabla
+use volcanesBD;
+create table volcanes (
+  id int not null auto_increment,
+  nombre varchar(50),
+  pais varchar(50),
+  altitud int,
+  primary key (id)
+);
+
+-- Algunos datos para pruebas
+insert into volcanes (nombre, pais, altitud) values ('Coronas', 'España', 609),
+                                                         ('Chimborazo', 'Ecuador', 6310),
+                                                         ('Etna', 'Italia', 3322);

@@ -1,0 +1,1 @@
+1. Si la imagen la pongo en resources, en glade pongo "/resources/volcan.jpg" pero no me funciona, no me a quedado mas remedio que ponerla en el directorio base.
