@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
 ##########################################
 # 
 # Copyright 2013 José Lorenzo Herrero Rico
@@ -9,9 +12,8 @@
 # This program is free software and it's licensed under the AFFERO GENERAL PUBLIC LICENSE (http://www.affero.org/oagpl.html).
 # 
 ##########################################
+"""
 
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 from gi.repository import Gtk, GdkPixbuf, Gdk
 import os, sys
