@@ -1,0 +1,1 @@
+/html/body/table[2]/tbody/tr/td/div[3]/table/tbody/tr[68]/td[2]/p/span/font
